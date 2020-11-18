@@ -1,0 +1,13 @@
+org 100h
+K1 EQU 2 
+K2 EQU 1
+K3 EQU 2
+
+
+MOV AX,K1
+ADD AX,K2
+ADD AX,K3
+
+MOV BX,AX
+
+ret
